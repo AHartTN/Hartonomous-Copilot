@@ -19,25 +19,20 @@ class HartonomousLLM:
         """Predict next token via k-NN spatial search"""
         self.cur.execute("""
             WITH target AS (
-                SELECT h_xy, h_yz, h_zm 
+                SELECT id, geom
                 FROM atoms 
-                WHERE modality='compositional' 
-                  AND meta->>'text' = %s 
+                WHERE raw_value = %s::bytea
                 LIMIT 1
             )
             SELECT 
-                a.meta->>'text' as token,
-                sqrt(
-                    power(CAST(a.h_xy - t.h_xy as numeric), 2) +
-                    power(CAST(a.h_yz - t.h_yz as numeric), 2) +
-                    power(CAST(a.h_zm - t.h_zm as numeric), 2)
-                )::bigint as distance
+                a.raw_value::text as token,
+                ST_3DDistance(a.geom, t.geom) as distance
             FROM atoms a, target t
-            WHERE a.modality = 'compositional'
-              AND (a.h_xy, a.h_yz, a.h_zm) != (t.h_xy, t.h_yz, t.h_zm)
-            ORDER BY distance ASC
+            WHERE a.id != t.id
+              AND a.raw_value IS NOT NULL
+            ORDER BY a.geom <-> t.geom
             LIMIT %s
-        """, (current_token, k))
+        """, (current_token.encode(), k))
         
         results = self.cur.fetchall()
         return [r[0] for r in results] if results else []
