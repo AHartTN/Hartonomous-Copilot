@@ -7,7 +7,12 @@ import sys
 
 class HartonomousLLM:
     def __init__(self):
-        self.conn = psycopg2.connect(database='hartonomous', user='postgres')
+        self.conn = psycopg2.connect(
+            database='hartonomous',
+            user='postgres',
+            password='postgres',
+            host='localhost'
+        )
         self.cur = self.conn.cursor()
         
     def predict_next_token(self, current_token, k=1):

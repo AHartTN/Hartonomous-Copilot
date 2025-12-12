@@ -78,17 +78,18 @@ def ingest_weight_atom(conn, weight_bytes, index):
         return False
 
 def main():
-        model_file = "/tmp/model.gguf"
+    import sys
+    model_file = sys.argv[1] if len(sys.argv) > 1 else "/tmp/model.gguf"
     
-    print(f"Ingesting: {    model_file = "/tmp/model.gguf"
+    print(f"Ingesting: {model_file}")
     print("="*60)
     
     # Parse header
-    version, tensor_count, kv_count = read_gguf_header(    model_file = "/tmp/model.gguf"
+    version, tensor_count, kv_count = read_gguf_header(model_file)
     
     # Extract sample weights
     print("\nExtracting weight samples...")
-    weights = extract_weights_sample(    model_file = "/tmp/model.gguf"
+    weights = extract_weights_sample(model_file)
     print(f"Extracted {len(weights)} weight values")
     
     # Connect to database

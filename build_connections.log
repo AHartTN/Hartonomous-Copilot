@@ -1,0 +1,47 @@
+================================================================================
+HARTONOMOUS - Building Neural Network Connections
+================================================================================
+
+[1/4] Loading tokenizer...
+✓ Loaded tokenizer with 32000 tokens
+
+[2/4] Mapping existing atoms...
+✓ Found 131780 existing atoms
+
+[3/4] Creating weight atoms...
+Traceback (most recent call last):
+  File "/home/ahart/Projects/Hartonomous-Copilot/build_connections.py", line 176, in <module>
+    build_connections()
+  File "/home/ahart/Projects/Hartonomous-Copilot/build_connections.py", line 71, in build_connections
+    cur.execute("""
+psycopg2.errors.InvalidSchemaName: schema "np" does not exist
+LINE 3: ...                 VALUES (2147483646, ST_MakePoint(np.float64...
+                                                             ^
+
+================================================================================
+HARTONOMOUS - Building Neural Network Connections
+================================================================================
+
+[1/4] Loading tokenizer...
+✓ Loaded tokenizer with 32000 tokens
+
+[2/4] Mapping existing atoms...
+✓ Found 131780 existing atoms
+
+[3/4] Creating weight atoms...
+  Progress: 50/256 weight values
+  Progress: 100/256 weight values
+  Progress: 150/256 weight values
+  Progress: 200/256 weight values
+  Progress: 250/256 weight values
+✓ 256 weight atoms ready
+
+[4/4] Building token connections...
+Traceback (most recent call last):
+  File "/home/ahart/Projects/Hartonomous-Copilot/build_connections.py", line 176, in <module>
+    build_connections()
+  File "/home/ahart/Projects/Hartonomous-Copilot/build_connections.py", line 141, in build_connections
+    cur.execute("""
+psycopg2.errors.NotNullViolation: null value in column "layer" of relation "connections" violates not-null constraint
+DETAIL:  Failing row contains (2647127401, 902666104, 1877995520, null).
+
