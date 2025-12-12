@@ -1,2 +1,6 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hartonomous.Core/Hartonomous.Core.csproj" />
+    <Project Path="src/Hartonomous.Infrastructure/Hartonomous.Infrastructure.csproj" />
+  </Folder>
 </Solution>

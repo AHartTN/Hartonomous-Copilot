@@ -1,0 +1,12 @@
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/bin/Debug/net10.0/Hartonomous.Core.deps.json
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/bin/Debug/net10.0/Hartonomous.Core.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/bin/Debug/net10.0/Hartonomous.Core.pdb
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.AssemblyInfoInputs.cache
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.AssemblyInfo.cs
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.csproj.CoreCompileInputs.cache
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.sourcelink.json
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/refint/Hartonomous.Core.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/Hartonomous.Core.pdb
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Core/obj/Debug/net10.0/ref/Hartonomous.Core.dll

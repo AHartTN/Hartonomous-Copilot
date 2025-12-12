@@ -1,0 +1,16 @@
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/bin/Debug/net10.0/Hartonomous.Infrastructure.deps.json
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/bin/Debug/net10.0/Hartonomous.Infrastructure.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/bin/Debug/net10.0/Hartonomous.Infrastructure.pdb
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/bin/Debug/net10.0/Hartonomous.Core.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/bin/Debug/net10.0/Hartonomous.Core.pdb
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.csproj.AssemblyReference.cache
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.AssemblyInfoInputs.cache
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.AssemblyInfo.cs
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.csproj.CoreCompileInputs.cache
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.sourcelink.json
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonom.943FD64F.Up2Date
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/refint/Hartonomous.Infrastructure.dll
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/Hartonomous.Infrastructure.pdb
+/home/ahart/Projects/Hartonomous-Copilot/src/Hartonomous.Infrastructure/obj/Debug/net10.0/ref/Hartonomous.Infrastructure.dll
